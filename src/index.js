@@ -1,11 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+import React from 'react'
+import  ReactDOM  from 'react-dom'
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+function Greeting(){
+  return <h4>hey there</h4>
+}
 
+ReactDOM.render(<Greeting/>, document.getElementById('root'))
