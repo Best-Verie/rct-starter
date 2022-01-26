@@ -1,6 +1,7 @@
 import React from 'react'
 import  ReactDOM  from 'react-dom'
 
+import './index.css'
 // function Greeting(){
 //   return <h4>hey there</h4>
 // }
@@ -15,7 +16,7 @@ import  ReactDOM  from 'react-dom'
 
 function BookList(){
   return (
-  <section>
+  <section className='booklist'>
     <Book/>
     <Book/>
     <Book/>
@@ -23,7 +24,7 @@ function BookList(){
 }
 
 const Book = () =>{
-  return <article>
+  return <article >
   <Image/>
   <Title/>
   <Author/>
